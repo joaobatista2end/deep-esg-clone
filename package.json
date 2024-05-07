@@ -10,8 +10,15 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@vueuse/nuxt": "^10.9.0",
     "nuxt": "^3.11.2",
+    "tailwindcss": "^3.4.3",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "vue3-carousel-nuxt": "^1.1.1"
+  },
+  "devDependencies": {
+    "nuxt-lucide-icons": "^1.0.4"
   }
 }
